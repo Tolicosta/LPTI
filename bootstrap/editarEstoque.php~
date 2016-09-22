@@ -1,0 +1,104 @@
+<html>
+	
+	<head>
+	
+		<title>sdgljh</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/datepicker-pt-BR.js"></script>	
+		<script type="text/javascript" src="js/monthly.js"></script>
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="css/styleIndex.css" rel="stylesheet" type="text/css">
+		<link href="css/cssIndex.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/meuscript.js"></script>
+  </head>
+  
+  <body>
+    <div class="section section-primary" id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+            <img src="imgs/logo.png" alt="logo" height="100px" width="120px">
+          </div>
+          <div class="col-md-10 text-center">
+            <h1>SISTEMA DE ASSISTÊNCIA SOCIAL</h1>
+            <p>Gerenciamento de Estoque, Membros, Eventos e Usuários</p>
+          </div>
+          <div class="col-md-1">
+            <a href="perfil.php"><i class="fa fa-4x fa-fw fa-user text-inverse"></i></a>
+            <h5 class="text-center">PERFIL</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container" id="painel">
+        <div class="row">
+          <div class="col-md-4 text-left">
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <a href="#"><i class="fa fa-4x fa-align-justify fa-fw text-primary"></i></a>
+              </div>
+              <div class="col-md-9" id="buttons">
+                <a class="btn btn-block btn-default btn-lg" href="telaPrincipal.php">Tela Principal</a>
+              </div>
+            </div>
+<br>
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <a href="#"><i class="fa fa-4x fa-fw text-primary fa-dropbox"></i></a>
+              </div>
+              <div class="col-md-9" id="buttons">
+                <a class="btn btn-block btn-default btn-lg" href="inserirEstoque.php">Inserir Doação/Arrecadação</a>
+                <a class="btn btn-block btn-default btn-lg" href="listarDoacoes.php">Listar Doações<br></a>
+                <a class="btn btn-block btn-default btn-lg" href="produto.php">Controle de Produtos<br></a>
+              </div>
+            </div>
+<br>
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <a href="#"><i class="fa fa-4x fa-child fa-fw text-primary"></i></a>
+              </div>
+              <div class="col-md-9" id="buttons">
+                <a class="btn btn-block btn-default btn-lg" href="inserirUsuario.php">Inserir Usuario</a>
+                <a class="btn btn-block btn-default btn-lg" href="inserirMembro.php">Inserir Membro<br></a>
+              </div>
+            </div>
+<br>
+            <div class="row">
+              <div class="col-md-3">
+                <a href="telaPrincipal.php"><i class="fa fa-4x fa-dollar fa-fw text-primary"></i></a>
+              </div>
+              <div class="col-md-9">
+                <div class="row">
+                  <div class="col-md-12">
+                    <a class="btn btn-block btn-default btn-lg" href="arrecadarDinheiro.php">Arrecadar Dinheiro</a>
+                    <a class="btn btn-block btn-default btn-lg" href="retirarDinheiro.php">Retirar Dinheiro</a>
+                    <a class="btn btn-block btn-default btn-lg" href="listarDinheiro.php">Listar Economias</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+<br>
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <a href="#"><i class="fa fa-4x fa-fw text-primary fa-area-chart"></i></a>
+              </div>
+              <div class="col-md-9" id="buttons">
+                <a class="btn btn-block btn-default btn-lg" href="arrecadacoes.php">Relatório de Entradas</a>
+                <a class="btn btn-block btn-default btn-lg" href="doacoes.php">Relatório de Saídas<br></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8" id="conteudo"></div>
+
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>

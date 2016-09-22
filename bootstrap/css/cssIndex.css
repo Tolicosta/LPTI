@@ -1,0 +1,19 @@
+#painel{
+
+	float: left;
+}
+
+#conteudo >*{
+
+	text-align: center;
+}
+
+#formulario{
+	
+	width: 100%;
+}
+
+#banner{
+
+	background-image: url('../imgs/fundo.jpg');
+}
